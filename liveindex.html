@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Cache-control" content="no-cache">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="X-UA_Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi, viewport-fit=cover">
+<meta name="title" content="현대카드" />
+<meta name="keywords" content="현대카드" />
+<meta name="description" content="현대카드" />
+<meta name="twitter:title" content="현대카드" />
+<meta name="twitter:description" content="여기를 눌러 링크를 확인하세요." />
+<meta name="twitter:image" content="https://www.hyundaicard.com/docfiles/resources/pc/images/common/logo/logo_hyundaicard.png/">
+<meta name="og:image" property="og:image" content="https://www.hyundaicard.com/docfiles/resources/pc/images/common/logo/logo_hyundaicard.png" />
+<meta property="og:title" content="현대카드" />
+<meta property="og:description" content="여기를 눌러 링크를 확인하세요." />    
+<title>현대카드</title>
+<link rel="shortcut icon" type="image/x-icon" href="https://www.hyundaicard.com/docfiles/resources/pc/images/favicon/img_favicon.ico">
+<script type="text/javascript" src="/docfiles/resources/mo/js/lib/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="/docfiles/resources/mo/js/lib/jquery-ui.js"></script>
+<script type="text/javascript" src="/docfiles/resources/mo/js/lib/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/docfiles/resources/mo/js/lib/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="/docfiles/resources/mo/js/lib/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="/docfiles/resources/mo/js/commonUi.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/docfiles/resources/mo/css/reset.css">
+<link rel="stylesheet" type="text/css" href="/docfiles/resources/mo/css/swiper-bundle.css">
+<link rel="stylesheet" type="text/css" href="/docfiles/resources/mo/css/common.css">
+<link rel="stylesheet" type="text/css" href="/docfiles/resources/mo/css/layout.css">
+
+</head>
+<body>
+    <div class="wrap" id="wrap">
+<!-- 메인 현대카드 앱 다운로드 팝업 시작 -->
+            <div id="appStop" class="modal_pop launching">
+                <!-- 타입 확장을 위한 클래스 추가는 modal_pop에  -->
+                <div class="modal_wrap">
+                    <!--modal_container-->
+                    <div class="modal_container">
+                        
+                        <!-- layer_wrap -->
+                        <div class="layer_wrap">
+                            
+                            <!-- layer_body , 디자인이 없어 글자 크기 및 여백은 임의로 작업-->
+                            <div class="layer_body">
+                                <div class="box_content">
+                                    <div class="con">
+                                        <h1 class="h3_b_lt">앱 하나로<br>카드 생활의 모든 것을<br>경험해 보세요!</h1>
+                                        <p class="p3_m_1ln mt8 fc_a64">#카드이용내역 #보유포인트/바우처<br>#앱카드결제 #3층시스템</p>
+                                        <div class="box_btn"><a href="https://ptx3p.app.goo.gl/31kZ" target="_blank" class="p2_b fc_m_link"><span class="textbico_small_link">현대카드 앱 다운로드</span></a></div>
+                                    </div>
+                                    <div class="img"><img src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/img_launching.png" alt=""></div>
+                                    
+                                </div>
+                            </div>
+                            <div class="not_see" role="checkbox"> 
+                                <input type="checkbox" class="blind" id="notSee">
+                                <label for="notSee" class="p2_b fc_wht">일주일 동안 보지 않기</label>
+                            </div>
+                            <!-- layer_body:end -->
+                            <div class="layer_close"><a href="javascript:popup.close('appStop');" title="현재 팝업 닫기"><span class="blind">닫기</span></a></div>
+                        </div>
+                        <!-- layer_wrap:end -->
+
+                    </div>
+                    <!--modal_container:end-->
+
+                </div>
+                <!--modal_wrap:end-->
+
+            </div>
+<!-- 메인 현대카드 앱 다운로드 팝업 종료 -->
+
+<script type="text/javascript" charset="UTF-8">
+$(document).ready(function(){
+    if(getCookie('mainBtmBn') !== "done"){
+        popup.open('appStop');
+    }
+    
+    $("#notSee").change(function() {
+        if($(this).is(":checked")){
+            setCookieTimeZero('mainBtmBn','done',7);
+            popup.close('appStop');
+        }
+    });
+});
+
+
+</script>   
+            <div class="menu_pop" id="idMenuPop" tabindex="0">
+                <div class="menu_top">
+                    <div class="home" id="idGoMainPage"><a href="#"><span class="a11y">홈으로 이동</span></a></div>   
+                    <div class="close" id="idMenuClose"><a href="#"><span class="a11y">메뉴 닫기</span></a></div>
+                </div>
+                <div class="menu_all">
+                    <div class="menu_in">
+                        <nav>
+                            <a href="https://ptx3p.app.goo.gl/?link=https://www.hyundaicard.com/DynamicLink?code=ACCOUNT_1&apn=com.hyundaicard.appcard&isi=702653088&ibi=com.hyundaicard.hcappcard&utm_campaign=앱설치안내&utm_medium=AMX&utm_source=앱명세서_SMS&mt=AMX&ct=앱명세서_SMS" target="_blank"><p class="h3_eb_lt">My Account</p></a> 
+                            <a href="https://ptx3p.app.goo.gl/?link=https://www.hyundaicard.com/DynamicLink?code=ACCOUNT_1&apn=com.hyundaicard.appcard&isi=702653088&ibi=com.hyundaicard.hcappcard&utm_campaign=앱설치안내&utm_medium=AMX&utm_source=앱명세서_SMS&mt=AMX&ct=앱명세서_SMS" target="_blank" class="app login_app_card">
+                                <div class="textbico_large app_in" >
+                                    <span class="app_thumb">
+                                        <img src="https://www.hyundaicard.com/docfiles/resources/mo/images/com/badge/badge_Hyundaicard_large.png" alt="현대카드 앱">
+                                    </span>
+                                    <span class="p1_b_lt_1ln app_desc">내 카드 이용내역을<br>앱에서 편리하게 확인하세요</span>
+                                </div>
+                            </a>
+                            <a href="javascript:goMainToCardMobile();"><p class="h3_eb_lt">카드 신청하기</p></a>
+                            <a href="javascript:goMainToFinanceMobile();"><p class="h3_eb_lt">금융 신청하기</p></a>
+                        </nav>
+                        <p class="link_customer"><a href="javascript:goMainToCustomerMobile();" class="h4_b_lt">고객지원</a></p>
+                        <a href="javascript:void(0);" id="btnChatbot" class="chat_banner">
+                            <p class="p1_b_lt">실시간 채팅 상담으로<br>문제를 빠르게 해결하기</p>
+                            <div class="chat_box"><span></span></div>
+                            <div class="chat_img"><img src="https://www.hyundaicard.com/docfiles/resources/mo/images/com/icon/others/img_henry.png" alt="챗봇"></div>
+                        </a>
+                        
+                    </div>
+                    <div class="menu_btm">
+                        <p class="p1_b_lt">현대카드의 다양한<br>패밀리 서비스를 만나보세요.</p>
+                        <ul>
+                            <li>
+                             
+                                 <a href="https://itunes.apple.com/kr/app/id369502181?mt=8" target="_blank" title="새창열림">
+                             
+                             
+                                    <p class="img"><img src="https://www.hyundaicard.com/docfiles/resources/mo/images/com/icon/others/ico_mpoint.png" alt="M포인트몰"></p>
+                                    <p class="p3_m_ctr mt8">M포인트몰</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://hyundai-dive2.onelink.me/IpFb/MXdive" target="_blank" title="새창열림">
+                                    <p class="img"><img src="https://www.hyundaicard.com/docfiles/resources/mo/images/com/icon/others/ico_dive.png" alt="DIVE"></p>
+                                    <p class="p3_m_ctr mt8">DIVE</p>
+                                </a>
+                            </li>
+                            <li>
+                             
+                                 <a href="https://itunes.apple.com/kr/app/id961537908?mt=8" target="_blank" title="새창열림">
+                             
+                             
+                                    <p class="img"><img src="https://www.hyundaicard.com/docfiles/resources/mo/images/com/icon/others/ico_weather.png" alt="웨더"></p>
+                                    <p class="p3_m_ctr mt8">웨더</p>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="other">
+                            <a href="https://mybusiness.hyundaicard.com/main.do" target="_blank" title="새창열림" class="p1_b_lt"><span class="textbico_small">MY BUSINESS</span></a> 
+                            <a href="https://mycompany.hyundaicard.com/cm/mn/CMMN1001.do?_method=m" target="_blank" title="새창열림" class="p1_b_lt"><span class="textbico_small">MY COMPANY</span></a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+<script type="text/javascript" charset="UTF-8">
+$(document).ready(function(){
+    $('#idGoMainPage').on('click', function(){
+        goMainPage();
+    });
+
+    $('#idMenuClose').on('click', function(){
+        menu.close();
+    });   
+});
+</script>   
+    <div id="bandBannerCms"></div>            
+            <div id="header" class="header main_header">
+                <h1><a href="/" class="logo"><span class="blind">현대카드</span></a></h1>
+                <a class="btn_Menu" href="javascript:mbMenuPopOpen();"><span class="blind">메뉴</span></a>
+                <a class="btn_custom" href="javascript:void(0);" id="btnChatbotHead"><img src="https://www.hyundaicard.com/docfiles/resources/mo/images/com/icon/others/img_henry.png" alt="챗봇"></a>
+            </div>
+ <script type="text/javascript" src="https://www.hyundaicard.com/docfiles/resources/mo/js/main.js"></script>           
+ <script type="text/javascript">
+     $("#bandBannerCms").load("https://www.hyundaicard.com/docfiles/cms/home/MOHOM000100_04.html");   
+
+
+     var chatbotLinlUrl = 'https://buddy.hyundaicard.com/service/#/27c4795d-c3cf-449e-9599-4a94d9190b4b?input={"data":{"msg_type":"017"}}';
+
+     $(document).ready(function() {
+         
+         $('#btnChatbotHead').on('click', function(e) {
+             location.href = chatbotLinlUrl;
+         });
+         $('#btnChatbot').on('click', function(e) {
+             location.href = chatbotLinlUrl;
+         });      
+       
+         $('.close').on('click', function(e) {
+             setTimeout(function () {
+                 if(!$('body').hasClass('modal-open')){
+                     $('body').removeClass('menu-open');
+                 }
+             }, 500);
+         });
+     });
+     
+     //메뉴버튼 클릭시
+     function mbMenuPopOpen(){
+         $('#idMenuPop').show(0 , function(){
+             $('#idMenuPop').addClass('active').focus();
+             $('body').addClass('modal-open');
+             $('body').addClass('menu-open');
+         });
+     }
+</script>
+
+    <!-- Container -->
+    <div id="container" class="main_container">
+
+        <!-- Contents  -->
+<link rel="stylesheet" type="text/css" href="/docfiles/resources/mo/css/home.css">
+        <div class="content">
+            <!--카드-->
+            <div class="section top">
+                <div class="section_in">
+                    <h2 class="h3_eb_lt">Hyundai<br>Originals</h2>
+                    <p class="p1_m_lt mt8">현대카드의 오리지널리티를 담은 진정한 현대카드</p>
+                    <!--카드 리스트 6개 노출후 배너 노출-->
+                    <div class="card_view">
+                        <ul class="card_list mt32">
+                                <li>
+                                        
+                                    
+                                        
+                                        
+                                            <a href="/cpc/cr/CPCCR0201_01.hc&#63;cardWcd=TPE3">
+                                                <img src="https://www.hyundaicard.com/img/com/card/card_TPE3_h.png" alt="the Purple osée"/>
+                                                <span class="p2_m_ctr">the Purple osée</span>
+                                            </a>
+                                        
+                                      
+                                                               
+                                </li>
+                            
+                                                
+                            
+                                <li>
+                                        
+                                    
+                                        
+                                        
+                                            <a href="/cpc/cr/CPCCR0201_01.hc&#63;cardWcd=TRE5">
+                                                <img src="https://www.hyundaicard.com/img/com/card/card_TRE5_h.png" alt="the Red Edition5"/>
+                                                <span class="p2_m_ctr">the Red Edition5</span>
+                                            </a>
+                                        
+                                      
+                                                               
+                                </li>
+                            
+                                                
+                            
+                                <li>
+                                        
+                                    
+                                        
+                                        
+                                            <a href="/cpc/cr/CPCCR0201_01.hc&#63;cardWcd=TGE2">
+                                                <img src="https://www.hyundaicard.com/img/com/card/card_TGE2_h.png" alt="the Green Edition2"/>
+                                                <span class="p2_m_ctr">the Green Edition2</span>
+                                            </a>
+                                        
+                                      
+                                                               
+                                </li>
+                            
+                                                
+                            
+                                <li>
+                                        
+                                    
+                                        
+                                        
+                                            <a href="/cpc/cr/CPCCR0201_01.hc&#63;cardWcd=TPI">
+                                                <img src="https://www.hyundaicard.com/img/com/card/card_TPI_h.png" alt="the Pink"/>
+                                                <span class="p2_m_ctr">the Pink</span>
+                                            </a>
+                                        
+                                      
+                                                               
+                                </li>
+                            
+                                                
+                            
+                                <li>
+                                        
+                                    
+                                        
+                                        
+                                            <a href="/cpc/cr/CPCCR0201_01.hc&#63;cardWcd=MBT">
+                                                <img src="https://www.hyundaicard.com/img/com/card/card_MBT_h.png" alt="M BOOST"/>
+                                                <span class="p2_m_ctr">M BOOST</span>
+                                            </a>
+                                        
+                                      
+                                                               
+                                </li>
+                            
+                                                
+                            
+                                <li>
+                                        
+                                    
+                                        
+                                        
+                                            <a href="/cpc/cr/CPCCR0201_01.hc&#63;cardWcd=XE3">
+                                                <img src="https://www.hyundaicard.com/img/com/card/card_XE3_h.png" alt="X BOOST"/>
+                                                <span class="p2_m_ctr">X BOOST</span>
+                                            </a>
+                                        
+                                      
+                                                               
+                                </li>
+                            
+                                                
+                            
+                                                
+                            
+                        
+
+                        </ul>
+                    </div>
+                    
+                     <!-- main banner --> 
+                    <div id="bannerFinderCms">                    
+                    </div>
+                    <!-- //main banner -->  
+                    
+                    <h2 class="h3_eb_lt">Champion<br>Brands</h2>
+                    <p class="p1_m_lt mt8">최고의 브랜드와 콜라보한 또 하나의 현대카드</p>
+                    <div class="card_view">
+                        <ul class="card_list mt32">
+                        
+                        
+                                                
+                            
+                                <li>
+                                    
+                                        
+                                            <a href="/cpc/cr/CPCCR0621_11.hc?cardflag=X">
+                                                <img src="https://www.hyundaicard.com/img/com/card/card_AMFM_h.png" alt="American Express"/>
+                                                <span class="p2_m_ctr">American Express<SUP>®</SUP></span>
+                                            </a>
+                                        
+                                        
+                                    
+                                </li>
+                            
+                                                
+                            
+                                <li>
+                                    
+                                        
+                                        
+                                            <a href="/cpc/cr/CPCCR0201_01.hc&#63;cardWcd=NVHC">
+                                                <img src="https://www.hyundaicard.com/img/com/card/card_NVHC_h.png" alt="네이버 현대카드"/>
+                                                <span class="p2_m_ctr">네이버 현대카드</span>
+                                            </a>
+                                        
+                                    
+                                </li>
+                            
+                                                
+                            
+                                <li>
+                                    
+                                        
+                                        
+                                            <a href="/cpc/ca/CPCCA0110_01.hc&#63;cardflag=HC">
+                                                <img src="https://www.hyundaicard.com/img/com/card/card_HSCHC_h.png" alt="Hyundai Mobility카드 (CASPER)"/>
+                                                <span class="p2_m_ctr">Hyundai Mobility카드 (CASPER)</span>
+                                            </a>
+                                        
+                                    
+                                </li>
+                            
+                                                
+                            
+                                <li>
+                                    
+                                        
+                                        
+                                            <a href="/cpc/cr/CPCCR0201_01.hc&#63;cardWcd=SBHC">
+                                                <img src="https://www.hyundaicard.com/img/com/card/card_SBHC_h.png" alt="스타벅스 현대카드"/>
+                                                <span class="p2_m_ctr">스타벅스 현대카드</span>
+                                            </a>
+                                        
+                                    
+                                </li>
+                            
+                                                
+                            
+                                <li>
+                                    
+                                        
+                                        
+                                            <a href="/cpc/cr/CPCCR0201_01.hc&#63;cardWcd=GCE2">
+                                                <img src="https://www.hyundaicard.com/img/com/card/card_GCE2_h.png" alt="에너지플러스카드 Edition2"/>
+                                                <span class="p2_m_ctr">에너지플러스카드 Edition2</span>
+                                            </a>
+                                        
+                                    
+                                </li>
+                            
+                                                
+                            
+                                <li>
+                                    
+                                        
+                                        
+                                            <a href="/cpc/ca/CPCCA0110_01.hc&#63;cardflag=KA">
+                                                <img src="https://www.hyundaicard.com/img/com/card/card_KALT3_h.png" alt="대한항공카드 150"/>
+                                                <span class="p2_m_ctr">대한항공카드 150</span>
+                                            </a>
+                                        
+                                    
+                                </li>
+                            
+                                                
+                            
+                                                
+                            
+                                                
+         
+                        </ul>
+                        <div class="box_btn alC mt36"><a href="/cpc/ma/CPCMA0101_01.hc" class="btn40_outline"><span class="p2_m">모든 카드 보기</span></a></div>
+                    </div>
+
+                     <!-- main banner --> 
+                    <div id="cardBannerCms">
+                    </div>
+                    <!-- //main banner -->              
+                    
+                </div>
+                <!--이벤트 배너-->
+                
+                 <!-- main banner --> 
+                 <div id="visualBannerCms"><!--이벤트 배너-->
+                  <div class="event_banner swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-free-mode swiper-container-ios">
+                          <ul class="swiper-wrapper" id="swiper-wrapper-4276666847943eb5" aria-live="polite" style="transform: translate3d(0px, 0px, 0px);">
+                              <li class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 20" style="margin-right: 12px;">
+                                  <a href="/cpc/cr/tobe_MO_cardList.html">
+                                      <img alt="홈페이지 리뉴얼 기념 이벤트 지금 현대카드 발급하면 연회비만큼의 혜택을 드려요" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_banner_img_b_launching.png">
+                                  </a>
+                              </li>
+                              <li class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 20" style="margin-right: 12px;">
+                                  <a href="/cpc/cr/CPCCR0201_01.hc?cardWcd=MXB&amp;eventCode=00000">
+                                      <img alt="혜택의 블랙 라벨 MX Black" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_mxblack.png">
+                                  </a>
+                              </li>
+                              <li class="swiper-slide" role="group" aria-label="3 / 20" style="margin-right: 12px;">
+                                  <a href="/cpc/cr/CPCCR0621_11.hc?cardflag=X&amp;AMX00&amp;agentCode=L303000000000">
+                                      <img alt="현대카드 M FLEX" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_amex.png">
+                                  </a>
+                              </li>
+                              <li class="swiper-slide" role="group" aria-label="4 / 20" style="margin-right: 12px;">
+                                  <a href="/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd=642510">
+                                      <img alt="대한항공카드로 마일리지와 디즈니+ 이용권을 한번에" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_koreanair.png">
+                                  </a>
+                              </li>
+                              <li class="swiper-slide" role="group" aria-label="5 / 20" style="margin-right: 12px;"><a href="/cpc/cr/CPCCR0621_11.hc?cardflag=M"><img alt="개인사업자도 업종별로 혜택 받는 시대 현대카드 MY BUSINESS카드" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_myb.png"></a></li>
+                              <li class="swiper-slide" role="group" aria-label="6 / 20" style="margin-right: 12px;">
+                                  <a href="/cpc/cr/CPCCR0201_01.hc?cardflag=M&amp;cardWcd=TGE2">
+                                      <img alt="My First Luxury the Green 자유와 모험을 즐기는 Entry 럭셔리 카드" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_green.png">
+                                  </a>
+                              </li>
+                              <li class="swiper-slide" role="group" aria-label="7 / 20" style="margin-right: 12px;">
+                                  <a href="/cpc/cr/CPCCR0201_01.hc?cardflag=M&amp;cardWcd=TRE5">
+                                      <img alt="My Hot Luxury the Red 마일리지거나 포인트거나 더 핫해진 럭셔리 카드" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_red.png">
+                                  </a>
+                              </li>
+                              <li class="swiper-slide" role="group" aria-label="8 / 20" style="margin-right: 12px;">
+                                  <a href="/cpc/cr/CPCCR0621_11.hc?cardflag=H">
+                                      <img alt="카드로 만나는 모빌리티 Hyundai Mobility카드(CASPER 경차카드)" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_casper_s.png">
+                                  </a>
+                              </li>
+                              <li class="swiper-slide" role="group" aria-label="9 / 20" style="margin-right: 12px;">
+                                  <a href="/cpc/cr/CPCCR0201_01.hc?cardWcd=GCE2">
+                                      <img alt="마침내, 15% 주유할인카드 시대 에너지플러스 Edition2" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_energyplus.png">
+                                  </a>
+                              </li>
+                              <li class="swiper-slide" role="group" aria-label="10 / 20" style="margin-right: 12px;">
+                                  <a href="/cpc/cr/CPCCR0201_01.hc?cardWcd=ONOF">
+                                      <img alt="디즈니+와 함께 더 강력해진 Digital Lover" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_digitallover_2.png">
+                                  </a>
+                              </li>
+                              <li class="swiper-slide" role="group" aria-label="11 / 20" style="margin-right: 12px;">
+                                  <a href="/cpc/cr/CPCCR0201_01.hc?cardflag=T&amp;cardWcd=CSTC&amp;eventCode=CCC98">
+                                      <img alt="코스트코에서 결제 시 최대 3% 포인트 적립" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_costco.png">
+                                  </a>
+                              </li>
+                              <li class="swiper-slide" role="group" aria-label="12 / 20" style="margin-right: 12px;">
+                                  <a href="/cpc/cr/CPCCR0201_01.hc?cardWcd=NVHC">
+                                      <img alt="혜택이 다 한 카드 네이버 현대카드" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_naver.png">
+                                  </a> <!-- 2022-02-15 Q10112 : 링크수정 -->
+                              </li>
+                              <li class="swiper-slide" role="group" aria-label="13 / 20" style="margin-right: 12px;">
+                                  <a href="/cpc/cr/CPCCR0201_01.hc?cardflag=Z&amp;cardWcd=ZO">
+                                      <img alt="디즈니+와 함께 더 강력해진 Z ontact" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_zontact_1.png">
+                                  </a>
+                              </li>
+                              <li class="swiper-slide" role="group" aria-label="14 / 20" style="margin-right: 12px;">
+                                  <a href="/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd=546781">
+                                      <img alt="My First Seduction the Pink 프로 쇼퍼들의 신상 럭셔리 카드" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_pink.png">
+                                  </a>
+                              </li>
+                              <li class="swiper-slide" role="group" aria-label="15 / 20" style="margin-right: 12px;">
+                                  <a href="/cpc/cr/CPCCR0201_01.hc?cardflag=D&amp;cardWcd=BMHC">
+                                      <img alt="법카 전성시대 배민현대카드" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_baemin.png">
+                                  </a>
+                              </li>
+                              <li class="swiper-slide" role="group" aria-label="16 / 20" style="margin-right: 12px;">
+                                  <a href="/cpc/ca/CPCCA0110_01.hc?cardflag=Z">
+                                      <img alt="구간반복 할인카드 현대카드Z Z family/Z work/Z ontact" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_z.png">
+                                  </a>
+                              </li>
+                              <li class="swiper-slide" role="group" aria-label="17 / 20" style="margin-right: 12px;">
+                                  <a href="/cpc/cr/CPCCR0201_01.hc?cardflag=D&amp;cardWcd=SBHC">
+                                      <img alt="쓸 때마다 별이 되는 카드 스타벅스 현대카드" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_starbucks.png">
+                                  </a>
+                              </li>
+                              <li class="swiper-slide" role="group" aria-label="18 / 20" style="margin-right: 12px;">
+                                  <a href="/cpc/cr/CPCCR0201_01.hc?cardWcd=EMTE2&amp;eventCode=ERT10">
+                                      <img alt="이마트에서는 이마트 e카드 Edition2" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_emart.png">
+                                  </a> <!-- 2022-02-15 Q10112 : 링크수정 -->
+                              </li>
+                              <li class="swiper-slide" role="group" aria-label="19 / 20" style="margin-right: 12px;">
+                                  <a href="/cpc/ca/CPCCA0110_01.hc">
+                                      <img alt="MX 위에 혜택을 BOOST MX BOOST" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_mxboost_1.png">
+                                  </a>
+                              </li>
+                              <!-- 2022-02-18 Q20016 나이키 덩크로우
+                              <li class="swiper-slide">
+                                  <a href="/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd=579046">
+                                      <img alt="한정판 나이키 덩크 로우 GET하는 방법" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_home_banner_img_b_musinsa_nike.png">
+                                  </a>
+                              </li>  --> <!-- 2022-02-24 Q20084 비게시-->
+                              <!-- 2022-02-25 Q20084 무신사 현대카드 최대 3만원 즉시할인 이벤트 -->
+                              <li class="swiper-slide" role="group" aria-label="20 / 20" style="margin-right: 12px;">
+                                  <a href="/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd=633365">
+                                      <img alt="한정판 나이키 덩크 로우 GET하는 방법" src="https://www.hyundaicard.com/docfiles/resources/mo/images/hom/m_homebanner_musinsa_discount.png">
+                                  </a>
+                              </li> 
+                          </ul>
+                          <script>
+                              var swiper = new Swiper('.event_banner', {
+                                  slidesPerView: 'auto',
+                                  spaceBetween: 12,
+                                  freeMode: true,
+                              })
+                          </script>
+                      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div></div>
+                <!-- //main banner -->               
+
+                <div class="main_banner">
+                    <div class="app">
+                        <a class="textbico_large app_in" href="https://ptx3p.app.goo.gl/sNRC" target="_blank">
+                            <span class="app_thumb">
+                                <img src="https://www.hyundaicard.com/docfiles/resources/mo/images/com/badge/badge_Hyundaicard_large.png" alt="현대카드 앱">
+                            </span>
+                            <span class="p1_b_lt_1ln app_desc">내 카드 이용내역을<br>앱으로 편리하게 확인하세요</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 금융 배너 -->
+            <div id="secFinInfoCms">
+            </div>
+            <!-- //금융 배너 -->            
+ 
+            <!--이벤트-->
+            <div class="section event">
+                <h2 class="h2_eb_lt">이벤트</h2>
+                <p class="p1_m_lt mt8">현대카드만의 특별한 이벤트</p>
+                <ul class="grid_list">
+                
+                        
+                        
+                                                
+                            
+                               
+                                                        
+                                <li class="grid-item square   ">                               
+                                
+                                    <a href="/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd=LN4199">
+                                        <div class="grid_image" style="background-color:#000000;background-image: url(/upload/cpd/mb/evnt_thumb_rent_1644483522615_1646022506313_1646038178304.png);background-size: cover;"> <!-- dev: 타이틀형 title 클래스 추가, 색상은 admin에서 지정한 칼러-->
+                                            <p class="banner_title a11y"></p>
+                                        </div>
+                                        <p class="p2_m_lt">월세서비스 신규 신청 시<br>캐시백 및 커피 쿠폰 혜택</p>                                        
+                                    </a>
+                                </li>
+                            
+                                                
+                            
+                               
+                                                        
+                                <li class="grid-item square   ">                               
+                                
+                                    <a href="/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd=642510">
+                                        <div class="grid_image" style="background-color:#000000;background-image: url(/upload/cpd/mb/evnt_thumb_kal_lounge_1644931374648.png);background-size: cover;"> <!-- dev: 타이틀형 title 클래스 추가, 색상은 admin에서 지정한 칼러-->
+                                            <p class="banner_title a11y"></p>
+                                        </div>
+                                        <p class="p2_m_lt">대한항공카드 이벤트<br>마일리지 적립 & 항공권 할인</p>                                        
+                                    </a>
+                                </li>
+                            
+                                                
+                            
+                               
+                                                        
+                                <li class="grid-item square   ">                               
+                                
+                                    <a href="/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd=220044">
+                                        <div class="grid_image" style="background-color:#000000;background-image: url(/upload/cpd/mb/evnt_thumb_costco_1644467687117.png);background-size: cover;"> <!-- dev: 타이틀형 title 클래스 추가, 색상은 admin에서 지정한 칼러-->
+                                            <p class="banner_title a11y"></p>
+                                        </div>
+                                        <p class="p2_m_lt">코스트코 리워드 현대카드<br>신규 회원 연회비 캐시백 이벤트 </p>                                        
+                                    </a>
+                                </li>
+                            
+                                                
+                            
+                               
+                                                        
+                                <li class="grid-item square   ">                               
+                                
+                                    <a href="/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd=576095">
+                                        <div class="grid_image" style="background-color:#000000;background-image: url(/upload/cpd/mb/evnt_thumb_naver_1644467501522.png);background-size: cover;"> <!-- dev: 타이틀형 title 클래스 추가, 색상은 admin에서 지정한 칼러-->
+                                            <p class="banner_title a11y"></p>
+                                        </div>
+                                        <p class="p2_m_lt">네이버 현대카드 이용하고<br>연회비 캐시백 받기!</p>                                        
+                                    </a>
+                                </li>
+                            
+                                                
+                            
+                               
+                                                        
+                                <li class="grid-item square   ">                               
+                                
+                                    <a href="/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd=205113">
+                                        <div class="grid_image" style="background-color:#000000;background-image: url(/upload/cpd/mb/evnt_thumb_x_season_1644467867534.png);background-size: cover;"> <!-- dev: 타이틀형 title 클래스 추가, 색상은 admin에서 지정한 칼러-->
+                                            <p class="banner_title a11y"></p>
+                                        </div>
+                                        <p class="p2_m_lt">[대상] X Edition2 2022년 1~3월 5%/<br>10% 시즌 스페셜 할인</p>                                        
+                                    </a>
+                                </li>
+                            
+                                                
+                            
+                               
+                                                        
+                                <li class="grid-item square   ">                               
+                                
+                                    <a href="/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd=580010">
+                                        <div class="grid_image" style="background-color:#000000;background-image: url(/upload/cpd/mb/evnt_thumb_casper_1644467607927.png);background-size: cover;"> <!-- dev: 타이틀형 title 클래스 추가, 색상은 admin에서 지정한 칼러-->
+                                            <p class="banner_title a11y"></p>
+                                        </div>
+                                        <p class="p2_m_lt">CASPER 전용카드만의<br>특별한 혜택</p>                                        
+                                    </a>
+                                </li>
+                            
+                        
+  
+                </ul>
+                <div class="box_btn alC mt8"><a href="/cpb/ev/CPBEV0101_01.hc" class="btn40_outline_boldtxt"><span>이벤트 전체 보기</span></a></div>
+                <script type="text/javascript" src="https://www.hyundaicard.com/docfiles/resources/pc/js/lib/masonry.pkgd.min.js"></script>
+                <script>
+                    $('.grid_list').masonry({
+                        itemSelector: '.grid-item'
+                    });
+                </script>
+            </div>
+            <!--기타-->
+            <div class="section etc">
+
+                <!-- 소비자 상담 등 -->
+                <div id="secCpucsCms">
+                </div>
+                <!-- //소비자 상담 등 -->   
+            
+                <div class="box_outline">
+                    <a href="/cpu/cg/CPUCG0201_02.hc" class="textbico_mide">
+                        <p class="p2_b_lt">소비자 경보</p>
+                        <p class="p2_m_lt mt4">유사투자자문업자 주식리딩방<br>피해 주의</p>
+                    </a>
+                </div>
+            </div>
+            <div class="box_banner sd_m_04">
+                <p class="img"><img src="https://www.hyundaicard.com/docfiles/resources/mo/images/com/badge/badge_Hyundaicard_large.png" alt="현대카드 앱"></p>
+                <p class="p1_b_ctr_1ln mt16">현대카드 앱에서 카드 발급하면<br>실물카드 없이, 앱카드로 바로 결제!</p>
+                <div class="box_btn mt12 alC">
+                    <a href="https://ptx3p.app.goo.gl/31kZ" class="p2_b_1ln fc_m_link">
+                        <span class="textbico_small_link">현대카드 앱 다운로드</span>
+                    </a>
+                </div>
+            </div>
+        </div><!-- e: content -->
+        
+   
+
+
+    <script type="text/javascript" charset="UTF-8">
+        $("#visualBannerCms").load("https://www.hyundaicard.com/docfiles/cms/home/MOHOM000100_01.html");
+        $("#secFinInfoCms").load("https://www.hyundaicard.com/docfiles/cms/home/MOHOM000100_02.html");
+        $("#secCpucsCms").load("https://www.hyundaicard.com/docfiles/cms/home/MOHOM000100_03.html");
+        $("#cardBannerCms").load("https://www.hyundaicard.com/docfiles/cms/home/MOHOM000100_05.html");
+        $("#bannerFinderCms").load("https://www.hyundaicard.com/docfiles/cms/home/MOHOM000100_06.html");
+    </script> 
+
+        <!-- //Contents  -->
+    </div>
+    <!-- //Container -->
+    <!-- footer -->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
+                            
+
+                        
+                            
+
+ <!-- footer_area -->
+
+    
+    
+        <footer id="footer">
+            <div class="footer_corp">
+                <ul class="list">
+                    <li class="p2_b_lt"><a href="/cpu/ug/CPUUG1001_01.hc">이용약관</a></li>
+                    <li class="p2_b_lt"><a href="/cpu/ug/CPUUG2001_06.hc?rglnClsfCd=2">개인정보 처리방침</a></li>
+                    <li class="p2_b_lt"><a href="http://www.careerhyundai.com" target="_blank">인재모집</a></li>
+                    <li class="p2_b_lt"><a href="/main/mainsub/mainBridge.hc">PC버전</a></li>                    
+                </ul>
+            </div>
+            <div class="footer_customer">
+                <ul>
+                    <li class="p3_b_lt_1ln"><strong >카드신청</strong><span class="p3_m_lt_1ln">1577-0100</span></li>
+                    <li class="p3_b_lt_1ln"><strong>도난분실신고</strong><span class="p3_m_lt_1ln">1577-6200</span></li>
+                    <li class="p3_b_lt_1ln"><strong>금융신청</strong><span class="p3_m_lt_1ln">1577-6100</span></li>
+                    <li class="p3_b_lt_1ln"><strong>해외</strong><span class="p3_m_lt_1ln">82-2-3015-9000</span></li>
+                </ul>
+            </div>
+            <div class="footer_address">
+                <address class="p3_m_lt_1ln fc_a64">서울시 영등포구 의사당대로 3 현대캐피탈빌딩</address>
+                <p class="p3_m_lt_1ln fc_a64">사업자 등록번호 213-86-15419 <br>© HYUNDAI CARD Corp.</p>
+            </div>
+            <div class="footer_mark mt16">
+                
+                <a href="javascript:;">
+                    <img src="https://www.hyundaicard.com/docfiles/resources/mo/images/com/logo/logo_com_img_bsi.png" width="78" alt="bsi. iso/iec 27001 Information Security Management 마크 (ISO 9001 품질경영시스템 인증 마크)">
+                </a>
+            </div>
+            
+                
+        </footer><!-- e: footer -->
+    
+        
+
+    
+
+            
+
+
+
+
+
+
+
+
+
+
+    <!-- //footer -->
+    
+    </div><!-- wrap main -->
+
+
+
+</body>
+</html>
+
